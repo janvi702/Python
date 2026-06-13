@@ -1,2 +1,7 @@
 //simple to print anything we use print
+//for the syntax 
+//to print any string, we use ("")
 print("hello world")
+
+//to print any number, we do not use ("")
+print(10)
