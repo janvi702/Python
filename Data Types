@@ -28,13 +28,3 @@ else:
 
 print(type(is_student))
 
-
-#output:
-#my name is Janvi
-#<class 'str'>
-#I am 20 years old
-#<class 'int'>
-#I have a cgpa of 8.3
-#<class 'float'>
-#you are a student
-#<class 'bool'>
