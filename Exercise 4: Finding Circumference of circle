@@ -1,8 +1,0 @@
-import math
-Radius= float(input("Enter the number:"))
-Coc= 2 * math.pi * Radius
-print(f"The circumference of a circle is: {round(Coc, 3)}")
-
-#Result:
-#Enter the number:5
-#The circumference of a circle is: 31.416
