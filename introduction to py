@@ -2,9 +2,6 @@
 #to print any string, we use ("")
 print("hello world")
 
-#to print any number, we do not use ("")
-print(10)
-
 #taking input from user
 name = input("what is your name? ")
 age = int(input("what is your age? "))
