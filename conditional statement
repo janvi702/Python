@@ -9,7 +9,6 @@ elif a == b:
 else:
   print("a is greater than b")
 
-
 #conditional expression: the conditional statement that can be written in one line
 #format: X if condition else Y
 num = 283
