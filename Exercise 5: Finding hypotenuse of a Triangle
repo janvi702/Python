@@ -3,7 +3,6 @@ import math
 
 A= float(input("Enter the side A:"))
 B= float(input("Enter the side B:"))
-
 C=  math.sqrt(pow(A, 2) + pow(B, 2)) 
 
 print(f"The side C of the triangle is: {C}")
