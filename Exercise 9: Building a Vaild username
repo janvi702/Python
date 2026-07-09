@@ -1,0 +1,10 @@
+username= input("Enter the username: ")
+
+if len(username) > 12:
+    print("The username cannot be more than 12 characters")
+elif not username.find(" ")== -1: #to not accept space in the username
+    print("The username cannot contain space")
+elif not username.isalpha(): #to not accept number in the username
+    print("The username cannot contain number")
+else:
+    print(f"Welcome {username}")
