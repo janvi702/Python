@@ -1,1 +1,12 @@
 #creating a compound interest project
+P= float(input(" Enter your amount : ")) 
+
+R= float(input(" Enter the rate of interest : ")) 
+
+N= float(input(" Enter the amount of time : ")) 
+
+A= P * pow(1+(0.01*R), N) 
+print(f"The Total amount is {round (A, 4)}")
+
+CI = A-P
+print(f"The compound interest is : {round(CI,4)}") 
