@@ -3,6 +3,8 @@ fruits = ["apple", "banana", "cherry"]
 for x in fruits:
   print(x) 
 
+for i in range(10):
+print(hi, how can i help you?)
 
 #using while loop 
 i = 1
@@ -19,3 +21,6 @@ while name=="":
  print("Please Enter your name") 
  name= input("Enter your name: ")
 print(f"Hello {name}") 
+
+While loops are infinite
+for loops are finite
